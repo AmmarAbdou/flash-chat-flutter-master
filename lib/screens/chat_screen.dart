@@ -190,7 +190,7 @@ class MessageBubble extends StatelessWidget {
                   isLoggedInUser ? Radius.circular(0) : Radius.circular(30),
             ),
             elevation: 5,
-            color: isLoggedInUser ? Colors.lightBlueAccent : Colors.white,
+            color: isLoggedInUser ? Colors.redAccent : Colors.white,
             child: Padding(
               padding: EdgeInsets.all(8.0),
               child: Text(
